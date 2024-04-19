@@ -1,0 +1,32 @@
+{
+  "name": "@tencent/zustand-cli",
+  "version": "1.0.5",
+  "description": "CLI for generating zustand state management files",
+  "main": "./bin/index.js",
+  "type": "module",
+  "keywords": [
+    "zustand",
+    "redux",
+    "React",
+    "state management",
+    "state",
+    "management",
+    "cli"
+  ],
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "author": "nolankywu",
+  "bin": {
+    "zustand": "./bin/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "keypress": "^0.2.1",
+    "zustand": "^4.5.2"
+  }
+}
