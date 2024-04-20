@@ -1,33 +1,28 @@
+**Introduction:**
 
-**简介：**
+zustand-cli is a command-line tool for quickly generating Zustand state management templates. It helps you to easily create Zustand store and use files based on JavaScript or TypeScript. By using zustand-cli, you can save time and maintain the consistency of your project structure.
 
-zustand-cli 是一个命令行工具，用于快速生成 Zustand 状态管理模板。它可以帮助您轻松创建基于 JavaScript 或 TypeScript 的 Zustand 存储和使用文件。通过使用 zustand-cli，您可以节省时间并保持项目结构的一致性。
+**Key Features:**
 
-**主要功能：**
+1. Automatically generate Zustand store templates (supports JavaScript and TypeScript).
+2. Optionally generate Zustand use files (supports JavaScript and TypeScript).
+3. Simplify the creation process of state management files.
+4. Quick start, no additional configuration required.
 
-1. 自动生成 Zustand 存储模板（支持 JavaScript 和 TypeScript）。
-2. 可选生成 Zustand 使用文件（支持 JavaScript 和 TypeScript）。
-3. 简化状态管理文件的创建过程。
-4. 快速入门，无需额外配置。
+**Installation:**
 
-**安装：**
-
-要安装 zustand-cli，请运行以下命令：
+To install zustand-cli, run the following command:
 
 ```bash
-npm i -g @tencent/zustand-cli
+npm i -g zustand-cli
 ```
 
-**使用方法：**
+**How to Use:**
 
-1. 在命令行中运行 `zustand new`。
-2. 选择您要生成的模板类型（JavaScript 或 TypeScript）。
-3. 根据提示选择是否生成使用文件。
-4. 自动生成的文件将在当前目录中创建。
-
-![Image description](./assets/image1.png)
-
-![Image description](./assets/image2.png)
+1. Run `zustand new` in the command line.
+2. Choose the type of template you want to generate (JavaScript or TypeScript).
+3. Choose whether to generate a usage file according to the prompts.
+4. The automatically generated files will be created in the current directory.
 
 ```bash
 NOLANKYWU-MB1:sh nolan$ zustand new
@@ -37,6 +32,4 @@ Created zustandTemplateTS.ts
 Created zustandUseTemplateTS.tsx
 ```
 
-现在，您可以开始使用自动生成的 Zustand 存储和使用文件，简化您的状态管理工作流程。尝试 zustand-cli，让您的开发过程更轻松愉快！
-
-
+Now, you can start using the automatically generated Zustand store and use files to simplify your state management workflow. Try zustand-cli to make your development process more relaxed and enjoyable!

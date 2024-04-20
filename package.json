@@ -1,6 +1,6 @@
 {
-  "name": "@tencent/zustand-cli",
-  "version": "1.0.5",
+  "name": "zustand-cli",
+  "version": "1.0.8",
   "description": "CLI for generating zustand state management files",
   "main": "./bin/index.js",
   "type": "module",
@@ -16,7 +16,7 @@
   "scripts": {
     "start": "node bin/index.js"
   },
-  "author": "nolankywu",
+  "author": "nolan-tomato",
   "bin": {
     "zustand": "./bin/index.js"
   },
